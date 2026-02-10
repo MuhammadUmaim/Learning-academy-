@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Learning Academy | Premium EdTech Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">M</div>
+                <div class="logo-text">Modern Academy</div>
+            </a>
+            
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#paths">Learning Paths</a></li>
+                    <li><a href="#instructors">Instructors</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#" class="btn btn-secondary">Sign In</a>
+                    <a href="#cta" class="btn btn-primary">Start Free Trial</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Transform Your Future with Expert-Led Learning</h1>
+                <p>Master in-demand skills with industry professionals. From beginner to career-ready in months. Join over 500,000 learners who have transformed their careers with our premium education platform.</p>
+                <div class="hero-cta">
+                    <a href="#cta" class="btn btn-primary">Start Free Trial</a>
+                    <a href="#courses" class="btn btn-secondary">Browse Courses</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-visual-main">
+                    <div class="hero-visual-element"></div>
+                    <div class="hero-visual-element"></div>
+                    <div class="hero-visual-element"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container stats-container">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="stat-number" data-count="500000">0</div>
+                <div class="stat-label">Students Enrolled</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-book-open"></i></div>
+                <div class="stat-number" data-count="2500">0</div>
+                <div class="stat-label">Courses Available</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+                <div class="stat-number" data-count="94">0</div>
+                <div class="stat-label">Career Impact Rate</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-user-tie"></i></div>
+                <div class="stat-number" data-count="350">0</div>
+                <div class="stat-label">Expert Instructors</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Learn In-Demand Skills</div>
+                <h2>Featured Courses & Programs</h2>
+                <p>Browse our curated selection of industry-relevant courses taught by experts from leading companies.</p>
+            </div>
+            
+            <div class="courses-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="tech">Technology</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+            </div>
+            
+            <div class="courses-grid">
+                <!-- Course 1 -->
+                <div class="course-card fade-in" data-category="tech">
+                    <div class="course-image">
+                        <div class="course-badge badge-beginner">Beginner</div>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Full-Stack Web Development</h3>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 12 Weeks</span>
+                            <span><i class="fas fa-user"></i> Alex Johnson</span>
+                        </div>
+                        <p class="course-description">Master modern web development with HTML, CSS, JavaScript, React, Node.js, and databases. Build real-world projects and deploy your own applications.</p>
+                        <div class="course-footer">
+                            <div class="course-price">$499</div>
+                            <a href="#" class="btn btn-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Course 2 -->
+                <div class="course-card fade-in" data-category="data">
+                    <div class="course-image">
+                        <div class="course-badge badge-intermediate">Intermediate</div>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Data Science & Machine Learning</h3>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 16 Weeks</span>
+                            <span><i class="fas fa-user"></i> Maria Chen</span>
+                        </div>
+                        <p class="course-description">Learn Python, statistical analysis, machine learning algorithms, and data visualization. Work with real datasets and build predictive models.</p>
+                        <div class="course-footer">
+                            <div class="course-price">$699</div>
+                            <a href="#" class="btn btn-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Course 3 -->
+                <div class="course-card fade-in" data-category="design">
+                    <div class="course-image">
+                        <div class="course-badge badge-beginner">Beginner</div>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">UX/UI Design Mastery</h3>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 10 Weeks</span>
+                            <span><i class="fas fa-user"></i> Sarah Williams</span>
+                        </div>
+                        <p class="course-description">From user research to prototyping and testing. Learn design thinking, Figma, and create portfolio-ready projects for modern digital products.</p>
+                        <div class="course-footer">
+                            <div class="course-price">$449</div>
+                            <a href="#" class="btn btn-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Path -->
+    <section class="learning-path" id="paths">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Your Journey to Success</div>
+                <h2>How Modern Academy Works</h2>
+                <p>Our structured learning paths guide you from beginner to job-ready professional with a clear, step-by-step approach.</p>
+            </div>
+            
+            <div class="path-container">
+                <div class="path-steps">
+                    <div class="path-step">
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">Discover</h3>
+                        <p>Browse courses and choose your learning path based on career goals.</p>
+                    </div>
+                    <div class="path-step">
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">Learn</h3>
+                        <p>Engage with video lessons, interactive content, and expert instructors.</p>
+                    </div>
+                    <div class="path-step">
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">Practice</h3>
+                        <p>Apply knowledge with hands-on projects and real-world challenges.</p>
+                    </div>
+                    <div class="path-step">
+                        <div class="step-number">4</div>
+                        <h3 class="step-title">Certify</h3>
+                        <p>Earn recognized certifications to validate your skills and boost your career.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Premium Learning Experience</div>
+                <h2>Why Choose Modern Academy</h2>
+                <p>We combine world-class education with career-focused outcomes to deliver transformative learning experiences.</p>
+            </div>
+            
+            <div class="benefits-container">
+                <div class="benefits-list">
+                    <div class="benefit-item fade-in">
+                        <div class="benefit-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Industry-Aligned Curriculum</h3>
+                            <p>Courses designed with input from leading tech companies to ensure relevance.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item fade-in">
+                        <div class="benefit-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Project-Based Learning</h3>
+                            <p>Build a professional portfolio with real-world projects and case studies.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item fade-in">
+                        <div class="benefit-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Mentor Support</h3>
+                            <p>Get personalized guidance from industry experts and career coaches.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="benefits-visual fade-in">
+                    <div class="certificate-preview">
+                        <div class="certificate-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Recognized Certification</h3>
+                        <p>Earn certificates trusted by employers worldwide to advance your career.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors -->
+    <section class="instructors" id="instructors">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Learn From The Best</div>
+                <h2>Meet Our Expert Instructors</h2>
+                <p>Our instructors are industry professionals from leading companies who bring real-world expertise to every lesson.</p>
+            </div>
+            
+            <div class="instructors-container">
+                <!-- Instructor 1 -->
+                <div class="instructor-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Alex Johnson" class="instructor-avatar">
+                    <h3>Alex Johnson</h3>
+                    <p>Lead Developer at TechCorp</p>
+                    <div class="instructor-expertise">
+                        <span class="expertise-tag">Web Dev</span>
+                        <span class="expertise-tag">React</span>
+                        <span class="expertise-tag">Node.js</span>
+                    </div>
+                    <p class="instructor-students">25,000+ students</p>
+                </div>
+                
+                <!-- Instructor 2 -->
+                <div class="instructor-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Maria Chen" class="instructor-avatar">
+                    <h3>Maria Chen</h3>
+                    <p>Data Scientist at DataWorks</p>
+                    <div class="instructor-expertise">
+                        <span class="expertise-tag">Python</span>
+                        <span class="expertise-tag">ML</span>
+                        <span class="expertise-tag">AI</span>
+                    </div>
+                    <p class="instructor-students">18,000+ students</p>
+                </div>
+                
+                <!-- Instructor 3 -->
+                <div class="instructor-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Sarah Williams" class="instructor-avatar">
+                    <h3>Sarah Williams</h3>
+                    <p>Design Director at CreativeMinds</p>
+                    <div class="instructor-expertise">
+                        <span class="expertise-tag">UX Design</span>
+                        <span class="expertise-tag">UI</span>
+                        <span class="expertise-tag">Figma</span>
+                    </div>
+                    <p class="instructor-students">22,000+ students</p>
+                </div>
+                
+                <!-- Instructor 4 -->
+                <div class="instructor-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1507591064344-4c6ce005-1288-5c9c2cdb7a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="David Kim" class="instructor-avatar">
+                    <h3>David Kim</h3>
+                    <p>Product Manager at GrowthTech</p>
+                    <div class="instructor-expertise">
+                        <span class="expertise-tag">Product</span>
+                        <span class="expertise-tag">Strategy</span>
+                        <span class="expertise-tag">Agile</span>
+                    </div>
+                    <p class="instructor-students">15,000+ students</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Success Stories</div>
+                <h2>What Our Students Say</h2>
+                <p>Join thousands of learners who have transformed their careers with Modern Academy.</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote">Modern Academy completely changed my career trajectory. The data science program gave me the skills I needed to land a job at a FAANG company with a 60% salary increase.</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80" alt="Michael Torres" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Michael Torres</h4>
+                            <p>Data Scientist at TechVision</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Validate Your Skills</div>
+                <h2>Recognized Certifications</h2>
+                <p>Earn industry-recognized certificates that demonstrate your expertise to employers worldwide.</p>
+            </div>
+            
+            <div class="certifications-container">
+                <div class="certificate-preview fade-in">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Professional Certification</h3>
+                    <p>Our certificates are designed with input from industry leaders and include verifiable credentials that employers trust.</p>
+                    <div class="certificate-features">
+                        <p><i class="fas fa-check-circle"></i> Digital & printable format</p>
+                        <p><i class="fas fa-check-circle"></i> Verifiable online</p>
+                        <p><i class="fas fa-check-circle"></i> Shareable on LinkedIn</p>
+                    </div>
+                    <a href="#" class="btn btn-primary" style="margin-top: var(--space-md);">View Sample Certificate</a>
+                </div>
+                
+                <div class="certificate-outcomes fade-in">
+                    <h3>Career Outcomes</h3>
+                    <p>94% of our graduates report positive career outcomes within 6 months of completing their program.</p>
+                    
+                    <div class="outcome-stats">
+                        <div class="outcome-stat">
+                            <div class="outcome-number">87%</div>
+                            <div class="outcome-label">Career advancement</div>
+                        </div>
+                        <div class="outcome-stat">
+                            <div class="outcome-number">42%</div>
+                            <div class="outcome-label">Salary increase</div>
+                        </div>
+                        <div class="outcome-stat">
+                            <div class="outcome-number">76%</div>
+                            <div class="outcome-label">New job acquisition</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta" id="cta">
+        <div class="container">
+            <h2>Start Your Learning Journey Today</h2>
+            <p>Join over 500,000 learners and transform your career with industry-relevant skills taught by experts. Start with a 7-day free trial—cancel anytime.</p>
+            <a href="#" class="btn btn-primary" style="background-color: var(--neutral-white); color: var(--primary-navy); font-size: 1.25rem; padding: 1.25rem 3rem;">
+                Get Started for Free
+            </a>
+            <p style="margin-top: var(--space-md); font-size: 0.875rem; color: rgba(255, 255, 255, 0.7);">
+                <i class="fas fa-lock"></i> Secure payment • 7-day free trial • Cancel anytime
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">M</div>
+                        <div class="logo-text">Modern Academy</div>
+                    </a>
+                    <p style="color: rgba(255, 255, 255, 0.7); margin: var(--space-md) 0;">Premium education for the future workforce. Transform your career with industry-leading courses and expert instruction.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Learning Paths</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">UX/UI Design</a></li>
+                        <li><a href="#">Business Analytics</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Career Guide</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">Scholarships</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Instructors</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Modern Learning Academy. All rights reserved. | <a href="#" style="color: rgba(255, 255, 255, 0.7);">Privacy Policy</a> | <a href="#" style="color: rgba(255, 255, 255, 0.7);">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>
